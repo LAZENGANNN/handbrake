@@ -25,6 +25,8 @@
     font-size: 1.5rem;
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
+    color: #25468A;
+
 }
 .navLinks{
     width: 500px;
@@ -52,7 +54,134 @@
     background: #FFFFFF;
     border: none;
 }
-.main{}
-.section{}
+
+.containerWithNotebook{
+    margin-top: 100px;
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.handbrakeDescriptionContainer{
+max-width: 500px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-height: 250px;
+    align-self: center;
+    margin-left: 10%;
+    color: #25468A;
+
+
+}
+.handbrakeName{
+    font-size: 92px;
+}
+
+.description1{
+    font-size: 32px;
+}
+
+.description2{
+    font-size: 20px;
+}
+
+.btnDownload{
+    background-color: #F7BA0E;
+    font-size: 18px;
+    border-radius: 24px;
+    padding: 9px 23px;
+max-width: fit-content;
+    align-self: center;
+}
+
+.benefits{
+    max-width: 1120px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 100px
+}
+
+.benefitBlock{
+    background-color:  #1391CE;
+    align-self: center;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    color: #FFFFFF;
+    font-size: 22px;
+    border-radius: 24px;
+    max-width: 350px;
+}
+
+.main{
+    border: 1px solid black;
+margin-top: 100px;
+}
+
+.subheading{
+    margin:  0 auto;
+    display: flex;
+    border: 1px solid black;
+    max-width: 390px;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.subheadingText{
+font-size: 36px;
+color:#1391CE;
+
+}
+
+.rectangle7{
+    height: 8px;
+    width: 160px;
+    background-color: #F7BA0E;
+    margin-top: 10px;
+}
+
+.features{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.feature1{
+display: flex;
+    justify-content: space-around;
+}
+
+.feature1Text{
+
+    max-width: 480px;
+}
+
+
+.feature1Text1{
+    padding-top: 20px;
+font-size: 16px;
+color: #25468A;
+
+}
+.feature1Text2{
+    padding-top: 20px;
+font-size: 32px;
+color: #1391CE;
+
+}
+
+.feature1Text3{
+    padding-top: 20px;
+    font-size: 18px;
+    color: #4F4F4F;
+
+}
+
+
 .footer{}
 
