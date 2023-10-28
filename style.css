@@ -1,11 +1,17 @@
+@import url(./index.css);
+@import url('https://fonts.googleapis.com/css2?family=Inter');
+
+
 * {
     padding: 0;
     margin: 0;
+    font-family: Inter;
+    /* border: 1px solid black; */
 }
 .container{
     max-width: 1440px;
     margin: 0 auto;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     background: linear-gradient(#66d9ff, #FFFFFF);
 }
 .header{
@@ -19,7 +25,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 .textTitle{
     font-size: 1.5rem;
@@ -64,11 +70,10 @@
 
 .handbrakeDescriptionContainer{
 max-width: 500px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    max-height: 250px;
     align-self: center;
     margin-left: 10%;
     color: #25468A;
@@ -81,10 +86,13 @@ max-width: 500px;
 
 .description1{
     font-size: 32px;
+
 }
 
 .description2{
     font-size: 20px;
+    margin-top: 32px;
+
 }
 
 .btnDownload{
@@ -94,11 +102,14 @@ max-width: 500px;
     padding: 9px 23px;
 max-width: fit-content;
     align-self: center;
+    border: none;
+    align-self: flex-start;
+    margin-top: 16px;
 }
 
 .benefits{
     max-width: 1120px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     justify-content: space-around;
     margin: 0 auto;
@@ -117,14 +128,14 @@ max-width: fit-content;
 }
 
 .main{
-    border: 1px solid black;
+    /* border: 1px solid black; */
 margin-top: 100px;
 }
 
 .subheading{
     margin:  0 auto;
     display: flex;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     max-width: 390px;
     display: flex;
     flex-direction: column;
@@ -137,6 +148,7 @@ color:#1391CE;
 
 }
 
+
 .rectangle7{
     height: 8px;
     width: 160px;
@@ -145,7 +157,7 @@ color:#1391CE;
 }
 
 .features{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     flex-direction: column;
     margin-top: 50px;
@@ -156,32 +168,73 @@ display: flex;
     justify-content: space-around;
 }
 
-.feature1Text{
+.featureText{
 
     max-width: 480px;
 }
 
 
-.feature1Text1{
+.featureText1{
     padding-top: 20px;
 font-size: 16px;
 color: #25468A;
 
 }
-.feature1Text2{
+.featureText2{
     padding-top: 20px;
 font-size: 32px;
 color: #1391CE;
 
 }
 
-.feature1Text3{
+.featureText3{
     padding-top: 20px;
     font-size: 18px;
-    color: #4F4F4F;
+    margin-top: 32px;
 
 }
 
+.feature2{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
 
+.li{
+    color: #1391CE;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 134.3%; /* 29.546px */
+    letter-spacing: 0.44px;
+    margin-top: 15px;   
+}
+
+.li ol{
+    color: #4F4F4F;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 134.3%; /* 21.488px */
+letter-spacing: 0.32px;
+margin-top:10px;
+}
+
+.li ol::before{
+    content: '';
+    width: 16px;
+    height: 16px;
+    background-image: url(./check-circle.png);
+    background-size: contain;
+    display: inline-block;
+}
+
+.feature3{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
 .footer{}
 
