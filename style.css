@@ -1,5 +1,6 @@
 @import url(./index.css);
 @import url('https://fonts.googleapis.com/css2?family=Inter');
+@import url('https://fonts.googleapis.com/css2?family=Roboto');
 
 
 * {
@@ -12,12 +13,13 @@
     max-width: 1440px;
     margin: 0 auto;
     /* border: 1px solid black; */
-    background: linear-gradient(#66d9ff, #FFFFFF);
+    /* background: linear-gradient(#66d9ff, #FFFFFF); */
+    background: #E9F5FF;
 }
 .header{
     padding-top: 40px;
     /*height: 755px;*/
-
+    background: linear-gradient(#66d9ff, #E9F5FF);
 }
 .nav{
     max-width: 1120px;
@@ -111,12 +113,13 @@ max-width: fit-content;
     max-width: 1120px;
     /* border: 1px solid black; */
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: 0 auto;
     margin-top: 100px
 }
 
 .benefitBlock{
+    max-height: 190px;
     background-color:  #1391CE;
     align-self: center;
     padding-top: 90px;
@@ -125,6 +128,14 @@ max-width: fit-content;
     font-size: 22px;
     border-radius: 24px;
     max-width: 350px;
+    
+text-align: center;
+font-family: Roboto;
+font-size: 22px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.88px;
 }
 
 .main{
@@ -145,7 +156,7 @@ margin-top: 100px;
 .subheadingText{
 font-size: 36px;
 color:#1391CE;
-
+text-align: center;
 }
 
 
@@ -161,11 +172,13 @@ color:#1391CE;
     display: flex;
     flex-direction: column;
     margin-top: 50px;
+    margin-left: 160px;
+    margin-right: 160px;
 }
 
 .feature1{
 display: flex;
-    justify-content: space-around;
+justify-content: space-between;
 }
 
 .featureText{
@@ -198,10 +211,10 @@ color: #1391CE;
     margin-top: 50px;
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
-.li{
+.ul{
     color: #1391CE;
     font-family: Inter;
     font-size: 22px;
@@ -212,7 +225,7 @@ color: #1391CE;
     margin-top: 15px;   
 }
 
-.li ol{
+.ul ol{
     color: #4F4F4F;
 font-size: 16px;
 font-style: normal;
@@ -222,7 +235,7 @@ letter-spacing: 0.32px;
 margin-top:10px;
 }
 
-.li ol::before{
+.ul ol::before{
     content: '';
     width: 16px;
     height: 16px;
@@ -234,7 +247,90 @@ margin-top:10px;
 .feature3{
     margin-top: 50px;
     display: flex;
+    justify-content: space-between;
+}
+
+
+.pre-footerText1{
+color: #1391CE;
+font-size: 36px;
+font-style: normal;
+font-weight: 300;
+line-height: 121.3%; /* 43.668px */
+letter-spacing: 0.36px;
+margin-bottom: 16px;
+}
+
+.pre-footerText2{
+color: var(--Gray-2);
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 125.7%; /* 22.626px */
+}
+
+.creditsText3{
+margin-top: 24px;
+}
+
+.pre-footer{
+    max-width: 1120px;
+    display: flex;
+    padding-top: 160px;
+    padding-left: 160px;
+    padding-right: 160px;
     justify-content: space-around;
 }
-.footer{}
 
+.pre-footer1{
+    max-width: 482px;
+}
+.pre-footer2{
+    max-width: 482px;
+    
+}
+
+
+.footer{
+    margin-top:65px;
+    height: 144px;
+    background-color: #1391CE;
+    max-width: 1440px;
+    padding-top: 32px;
+}
+
+.line{
+max-width: 1216px;
+border: 1px solid #E3E3E3;
+margin-left: 112px;
+}
+
+.footerContent{
+    margin-left: 112px;
+    margin-top:32px;
+    max-width: 1216px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footerContent p{
+    color: var(--color-neutral-black-1);
+
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 134.3%; /* 21.488px */
+letter-spacing: 0.16px;
+}
+
+.footerContent p span{
+    color: white;
+}
+
+.footerContent p a{
+    text-decoration: none;
+    color: var(--color-neutral-black-1);
+}
